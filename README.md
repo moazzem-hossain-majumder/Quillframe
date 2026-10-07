@@ -4,7 +4,7 @@
 
 Give Quillframe a short brand brief. It sends the brief to several AI models at once, compares how they perform, then turns the best result into a small campaign: a concept, slogans, images from two image generators, a voiceover, a social media pack for four platforms, and an **experiment log** that documents which tool did what, and how fast.
 
-![CI](https://github.com/moazzem-hossain-majumder/quillframe/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/moazzem-hossain-majumder/Quillframe/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
