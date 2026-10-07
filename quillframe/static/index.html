@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quillframe</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>Quill<span>frame</span></h1>
+      <p class="tag">A multi-model creative AI workbench. Free-tier APIs, side by side.</p>
+    </div>
+    <div id="providers" class="chips" aria-live="polite"></div>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>1. Generate a campaign</h2>
+      <p class="hint">Describe a brand or product. Quillframe asks every configured model for a concept, then makes images, a voiceover, social posts and an experiment log.</p>
+      <textarea id="brief" rows="4" placeholder="e.g. A Dhaka-based animation studio launching a short film about river life, aimed at young festival audiences."></textarea>
+      <div class="row">
+        <label>Images per provider
+          <select id="images"><option>0</option><option>1</option><option selected>2</option><option>3</option></select>
+        </label>
+        <label>Voice (optional)
+          <input id="voice" placeholder="en-US-AriaNeural">
+        </label>
+        <button id="run-campaign" class="primary">Generate campaign</button>
+      </div>
+      <p id="campaign-status" class="status"></p>
+      <div id="campaign-result"></div>
+    </section>
+
+    <section class="card">
+      <h2>2. Model arena</h2>
+      <p class="hint">Send one prompt to every configured text model and compare the answers and latency.</p>
+      <textarea id="arena-prompt" rows="2" placeholder="e.g. Write a tagline for an animation studio that uses AI."></textarea>
+      <div class="row"><button id="run-arena" class="primary">Compare models</button></div>
+      <p id="arena-status" class="status"></p>
+      <div id="arena-result" class="grid"></div>
+    </section>
+
+    <section class="card">
+      <h2>Past campaigns</h2>
+      <div id="history"><p class="hint">Nothing yet.</p></div>
+    </section>
+  </main>
+
+  <footer>Quillframe &middot; <a href="/docs">API docs</a></footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>

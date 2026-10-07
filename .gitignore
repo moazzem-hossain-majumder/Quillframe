@@ -1,0 +1,17 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# generated campaign runs (copy a good one into examples/ to showcase it)
+outputs/*
+!outputs/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
