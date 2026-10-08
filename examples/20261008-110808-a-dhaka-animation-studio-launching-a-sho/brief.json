@@ -1,0 +1,18 @@
+{
+  "campaign_name": "Currents of Silt",
+  "concept": "The campaign bridges Dhaka's kinetic urban energy with the timeless, mystic rhythms of Bengal's waterways to celebrate our roots. Through modern animated folklore, it reveals the river not as a background landscape, but as a living protagonist holding our collective memories. It invites young festival-goers to rediscover their cultural identity through fluid, boundary-pushing visual storytelling.",
+  "tone": "Lyrical, vibrant, kinetic, evocative, rebellious",
+  "audience": "Young cinema and animation festival-goers, creative digital natives, and South Asian art enthusiasts aged 18 to 32.",
+  "slogans": [
+    "Every droplet remembers who we are.",
+    "From city streets to silted tides, we flow.",
+    "The river breathes when we look closer."
+  ],
+  "visual_direction": "Rich painterly 2D animation layered with fluid watercolor textures, blending a palette of terracotta rust, monsoon teal, and luminous amber. The mood balances atmospheric river mysticism with sharp, dynamic graphic motion that feels contemporary and alive.",
+  "image_prompts": [
+    "A traditional wooden riverboat gliding across misty river waters at dusk, wide cinematic angle. Glowing reflections from Dhaka city lights ripple across dark sepia water, mixed with floating lily pads. Stylized painterly animation aesthetic, soft ambient fog, warm golden lantern light casting long highlights on water ripples.",
+    "Close-up of a young person hand-trailing through flowing river water, with glowing aquatic flora and silt particles spiraling around their fingers. Intimate low-angle composition, twilight indigo and emerald lighting, expressive hand-drawn brush textures, subtle luminous particles in the current.",
+    "A flock of migratory birds taking flight over a sprawling river delta at sunrise, silhouette composition with dramatic sunbeams cutting through morning monsoon haze. Rich palette of ochre, burnt sienna, and deep cerulean blue, expressive high-contrast graphic animation style, dynamic motion feel."
+  ],
+  "voiceover_script": "Before the concrete rose, the river carved our stories into the silt. We forgot the sound of the water, but the current never forgot us. Look beyond the edge of the city. Listen to the tide rising beneath your feet. We are made of this water, flowing forward together."
+}

@@ -1,0 +1,113 @@
+{
+  "id": "20261008-110808-a-dhaka-animation-studio-launching-a-sho",
+  "created": "2026-10-08T11:10:42+06:00",
+  "brand_brief": "A Dhaka animation studio launching a short film about river life, for young festival audiences",
+  "brief": {
+    "campaign_name": "Currents of Silt",
+    "concept": "The campaign bridges Dhaka's kinetic urban energy with the timeless, mystic rhythms of Bengal's waterways to celebrate our roots. Through modern animated folklore, it reveals the river not as a background landscape, but as a living protagonist holding our collective memories. It invites young festival-goers to rediscover their cultural identity through fluid, boundary-pushing visual storytelling.",
+    "tone": "Lyrical, vibrant, kinetic, evocative, rebellious",
+    "audience": "Young cinema and animation festival-goers, creative digital natives, and South Asian art enthusiasts aged 18 to 32.",
+    "slogans": [
+      "Every droplet remembers who we are.",
+      "From city streets to silted tides, we flow.",
+      "The river breathes when we look closer."
+    ],
+    "visual_direction": "Rich painterly 2D animation layered with fluid watercolor textures, blending a palette of terracotta rust, monsoon teal, and luminous amber. The mood balances atmospheric river mysticism with sharp, dynamic graphic motion that feels contemporary and alive.",
+    "image_prompts": [
+      "A traditional wooden riverboat gliding across misty river waters at dusk, wide cinematic angle. Glowing reflections from Dhaka city lights ripple across dark sepia water, mixed with floating lily pads. Stylized painterly animation aesthetic, soft ambient fog, warm golden lantern light casting long highlights on water ripples.",
+      "Close-up of a young person hand-trailing through flowing river water, with glowing aquatic flora and silt particles spiraling around their fingers. Intimate low-angle composition, twilight indigo and emerald lighting, expressive hand-drawn brush textures, subtle luminous particles in the current.",
+      "A flock of migratory birds taking flight over a sprawling river delta at sunrise, silhouette composition with dramatic sunbeams cutting through morning monsoon haze. Rich palette of ochre, burnt sienna, and deep cerulean blue, expressive high-contrast graphic animation style, dynamic motion feel."
+    ],
+    "voiceover_script": "Before the concrete rose, the river carved our stories into the silt. We forgot the sound of the water, but the current never forgot us. Look beyond the edge of the city. Listen to the tide rising beneath your feet. We are made of this water, flowing forward together."
+  },
+  "brief_provider": "gemini",
+  "text_comparison": [
+    {
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "latency_s": 43.28,
+      "valid": true,
+      "error": null,
+      "first_slogan": "Every droplet remembers who we are."
+    },
+    {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "latency_s": 3.05,
+      "valid": true,
+      "error": null,
+      "first_slogan": "Feel the Flow, Own the Story"
+    },
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3.5-lightning:free",
+      "latency_s": 89.63,
+      "valid": false,
+      "error": "invalid JSON/schema: 1 validation error for CampaignBrief\ntone\n  Input should be a valid string [type=string_type, input_value=['playful', 'fluid', 'immersive'], input_type=list]\n    For further information visit https://",
+      "first_slogan": null
+    }
+  ],
+  "social": {
+    "instagram": {
+      "caption": "Dive into the flow 🌊✨! 'Currents of Silt' brings Dhaka’s streets and Bengal’s rivers together in a vibrant animated short. Every droplet remembers who we are. 🌟",
+      "hashtags": [
+        "#CurrentsOfSilt",
+        "#RiverLife",
+        "#DhakaAnimation",
+        "#AnimatedFolklore",
+        "#YoungCreators",
+        "#SiltedTides"
+      ]
+    },
+    "linkedin": {
+      "caption": "We are thrilled to unveil 'Currents of Silt', a groundbreaking animated short from our Dhaka studio. By weaving kinetic urban energy with the timeless rhythms of Bengal’s waterways, the film positions the river as a living protagonist that holds our collective memories. This project invites festival audiences to explore cultural identity through innovative visual storytelling.",
+      "hashtags": [
+        "#CurrentsOfSilt",
+        "#AnimationInnovation",
+        "#CulturalStorytelling"
+      ]
+    },
+    "x": {
+      "caption": "From city streets to silted tides, we flow. Experience 'Currents of Silt' – an animated short where the river breathes and remembers. #CurrentsOfSilt",
+      "hashtags": [
+        "#CurrentsOfSilt"
+      ]
+    },
+    "facebook": {
+      "caption": "Hey friends! 🌟 Our new short film 'Currents of Silt' just dropped, and it’s a love‑letter to the rivers that shape our lives. Join us on a vivid journey from Dhaka’s bustling streets to the mystical tides of Bengal. Let’s rediscover our roots together!",
+      "hashtags": [
+        "#CurrentsOfSilt",
+        "#RiverStories"
+      ]
+    }
+  },
+  "social_error": null,
+  "images": [
+    {
+      "provider": "pollinations",
+      "model": "flux",
+      "index": 1,
+      "prompt": "A traditional wooden riverboat gliding across misty river waters at dusk, wide cinematic angle. Glowing reflections from Dhaka city lights ripple across dark sepia water, mixed with floating lily pads. Stylized painterly animation aesthetic, soft ambient fog, warm golden lantern light casting long highlights on water ripples.",
+      "file": "images/image_1_pollinations.jpg",
+      "latency_s": 3.3,
+      "error": null
+    },
+    {
+      "provider": "pollinations",
+      "model": "flux",
+      "index": 2,
+      "prompt": "Close-up of a young person hand-trailing through flowing river water, with glowing aquatic flora and silt particles spiraling around their fingers. Intimate low-angle composition, twilight indigo and emerald lighting, expressive hand-drawn brush textures, subtle luminous particles in the current.",
+      "file": "images/image_2_pollinations.jpg",
+      "latency_s": 2.95,
+      "error": null
+    }
+  ],
+  "voice": {
+    "voice": "en-US-AriaNeural",
+    "file": "voiceover.mp3",
+    "latency_s": 3.13,
+    "error": null
+  },
+  "log_file": "EXPERIMENT_LOG.md",
+  "total_s": 154.4
+}

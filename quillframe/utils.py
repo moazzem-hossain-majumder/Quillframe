@@ -9,7 +9,7 @@ import unicodedata
 import httpx
 
 RETRY_BASE_DELAY = 2.0  # seconds; doubled on every retry (tests set this to 0)
-RETRY_STATUSES = {429, 500, 502, 503, 504}
+RETRY_STATUSES = {402, 429, 500, 502, 503, 504}
 
 _transport: httpx.AsyncBaseTransport | None = None
 

@@ -115,6 +115,8 @@ async def generate_images(prompts: list[str], out_dir: Path, n: int | None = Non
     async def run(provider: ImageProvider) -> list[ImageResult]:
         results = []
         for i, prompt in enumerate(prompts, start=1):
+            if i > 1:
+                await asyncio.sleep(2.0)
             results.append(await provider.generate(prompt, out_dir / f"image_{i}_{provider.name}", i))
         return results
 
