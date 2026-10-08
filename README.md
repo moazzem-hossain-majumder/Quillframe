@@ -197,7 +197,8 @@ quillframe/
 │   ├── cli.py            # command-line interface
 │   └── static/           # web UI (HTML, CSS, vanilla JS)
 ├── tests/                # offline tests with mocked HTTP
-├── docs/PUBLISHING.md    # how to put this on GitHub
+├── examples/             # sample generated campaign run
+├── docs/                 # UI screenshots and documentation
 ├── .github/workflows/    # CI on Linux and Windows
 └── .env.example
 ```
